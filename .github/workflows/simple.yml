@@ -1,0 +1,9 @@
+name: Shell Commands
+on: [push]
+
+jobs:
+    run-shell:
+        runs-on: alpine-latest
+        steps:
+            - name: simple Commands
+              run: echo "Foo"
